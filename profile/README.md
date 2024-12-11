@@ -15,6 +15,6 @@
 6. gRPC를 사용하여 Post -> Member 데이터 확인
 
 🖥️ Reference
-[Transactional Outbox Pattern with Microservices and Kafka - CuriousJinan 블로그](https://curiousjinan.tistory.com/entry/transactional-outbox-pattern-microservices-kafka#Transactional%20Outbox%20Pattern%EC%9D%98%20%EC%82%AC%EC%9A%A9%20%EC%82%AC%EB%A1%80-1)
+[Transactional Outbox Pattern with Microservices and Kafka - CuriousJinan 블로그](https://curiousjinan.tistory.com/entry/transactional-outbox-pattern-microservices-kafka#Transactional%20Outbox%20Pattern%EC%9D%98%20%EC%82%AC%EC%9A%A9%20%EC%82%AC%EB%A1%80-1)<br>
 [AmazingEffect - Github](https://github.com/AmazingEffect)
 
