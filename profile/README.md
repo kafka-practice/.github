@@ -9,7 +9,7 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 실제 프로젝트에 적용해보기 전, ✨간이 MSA 환경 with 독립적 DB✨를 구성해보려 합니다.<br>
 <br>
 
-✨ 목표 - <br>
+**✨ 목표** <br>
 1. Github Actions + ArgoCD를 활용하여 CI/CD를 구성
 2. GCP Kubenetes 환경을 Terraform을 이용하여 수행
 3. 각 MSA 프로젝트를 쿠버네티스 상에 배포
@@ -19,7 +19,7 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 7. gRPC를 사용하여 Post -> Member 데이터 확인
 <br>
 
-🌲 프로젝트 구조 <br>
+**🌲 프로젝트 구조** <br>
 ![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/73e89ac1-caef-4c11-9f0c-acee18c63b61)
 <br>
 
