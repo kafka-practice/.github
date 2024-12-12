@@ -15,8 +15,9 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 5. Member -> Post 서버로 DB 데이터 동기화 - Transactional Outbox Pattern
 6. gRPC를 사용하여 Post -> Member 데이터 확인
 
-- 프로젝트 구조 -
-  
+- 프로젝트 구조 - <br>
+![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/73e89ac1-caef-4c11-9f0c-acee18c63b61)
+
 
 - 🖥️ Reference - <br>
 1. [Transactional Outbox Pattern with Microservices and Kafka - CuriousJinan 블로그](https://curiousjinan.tistory.com/entry/transactional-outbox-pattern-microservices-kafka#Transactional%20Outbox%20Pattern%EC%9D%98%20%EC%82%AC%EC%9A%A9%20%EC%82%AC%EB%A1%80-1)<br>
