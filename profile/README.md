@@ -13,9 +13,10 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 1. Github Actions + ArgoCD를 활용하여 CI/CD를 구성
 2. GCP Kubenetes 환경을 Terraform을 이용하여 수행
 3. 각 MSA 프로젝트를 쿠버네티스 상에 배포
-4. Kafka를 SASL_TLS 적용하여 쿠버네티스 상에서 관리
-5. Member -> Post 서버로 DB 데이터 동기화 - Transactional Outbox Pattern
-6. gRPC를 사용하여 Post -> Member 데이터 확인
+4. Spring Cloud를 적용하여 API Gateway 역할 수행 서버 생성
+5. Kafka를 SASL_TLS 적용하여 쿠버네티스 상에서 관리
+6. Member -> Post 서버로 DB 데이터 동기화 - Transactional Outbox Pattern
+7. gRPC를 사용하여 Post -> Member 데이터 확인
 <br>
 
 🌲 프로젝트 구조 <br>
