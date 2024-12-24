@@ -17,7 +17,7 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 4. Spring Cloud를 적용하여 API Gateway 역할 수행 서버 생성
 5. Kafka를 SASL_TLS 적용하여 쿠버네티스 상에서 관리
 6. Member -> Post 서버로 DB 데이터 동기화 - Transactional Outbox Pattern
-7. gRPC를 사용하여 Post -> Member 데이터 확인
+7. gRPC를 사용하여 MSA 간 API 요청
 <br>
 
 **🌲 프로젝트 아키텍쳐 구조** <br>
