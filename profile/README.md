@@ -24,7 +24,14 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 ![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/73e89ac1-caef-4c11-9f0c-acee18c63b61)
 <br>
 <br>
+
+## 💾 소스 코드 구조
+- [x] [kafka-user](https://github.com/kafka-practice/kafka-user) - 현재 작성 중
+- [ ] kafka-post
+- [ ] kafka-api-gateway
+
 <br>
+
 🖥️ Reference <br>
 1. [Transactional Outbox Pattern with Microservices and Kafka - CuriousJinan 블로그](https://curiousjinan.tistory.com/entry/transactional-outbox-pattern-microservices-kafka#Transactional%20Outbox%20Pattern%EC%9D%98%20%EC%82%AC%EC%9A%A9%20%EC%82%AC%EB%A1%80-1)<br>
 2. [AmazingEffect - Github](https://github.com/AmazingEffect)
