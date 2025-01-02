@@ -40,7 +40,8 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 <br>
 <br>
 
-### 후기
+---------------------------------
+## 후기
 이 프로젝트를 수행하기 전, 저는 단순히 Kafka로 MSA를 구현한다고만 알고 있었습니다. <br>
 이후 어떻게 구현하지? 라는 생각에 무작정 블로그를 찾아보았고, `Transactional Outbox Pattern`에 대해 알게되었습니다. <br>
 해당 블로그 내용을 근거로, 시도를 하려했지만 너무 어렵다 싶었고 해당 블로그는 코드로된 정보가 거의 없었습니다. <br>
@@ -50,7 +51,7 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 코드를 작성할 수 있었습니다. <br>
 <br>
 코드 작성을 하며 `AOP in Logging`, `새로운 패키지 아키텍쳐`, `Kafka in Spring`, `Trace` 등에 대해 알게되었습니다.<br>
-특히나, AOP는 Trace 및 Span을 위해 필수적이며 어노테이션 기반 로깅을 구현하는 것은 매우 재미있었습니다.<br>
+특히나, AOP는 ✨Trace 및 Span을 위해 필수적✨이며 ✨어노테이션 기반 로깅을 구현하는 것✨은 매우 재미있었습니다.<br>
 <br>
 다음으로는 ✨DevOps Engineer로써 역량을 높일 수 있었습니다✨. <br>
 며칠 전까지만 해도, 저는 Jaeger 및 OpenTelemetry가 무엇인지 알지 못했습니다. <br>
@@ -63,3 +64,12 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 이렇게 성장할 수 있는 기회를 준 GCP와 AmazingEffect 레포지토리 주인분에게 정말 정말 감사드립니다.
 <br>
 <br>
+
+-------------------------------
+### 사진
+
+| 사진과 설명 |
+|-------------|
+| ![사진1](https://via.placeholder.com/150) <br> 첫 번째 사진 설명 |
+| ![사진2](https://via.placeholder.com/150) <br> 두 번째 사진 설명 |
+| ![사진3](https://via.placeholder.com/150) <br> 세 번째 사진 설명 |
