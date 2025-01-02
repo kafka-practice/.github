@@ -68,8 +68,4 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 -------------------------------
 ### 사진
 
-| 사진과 설명 |
-|-------------|
-| ![사진1](https://via.placeholder.com/150) <br> 첫 번째 사진 설명 |
-| ![사진2](https://via.placeholder.com/150) <br> 두 번째 사진 설명 |
-| ![사진3](https://via.placeholder.com/150) <br> 세 번째 사진 설명 |
+1. 
