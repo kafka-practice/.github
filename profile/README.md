@@ -31,6 +31,7 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 ## 💾 소스 코드 구조
 - [x] [kafka-user](https://github.com/kafka-practice/kafka-user) - `메시지 프로듀싱`, `gRPC 서버`
 - [x] [kafka-post](https://github.com/kafka-practice/kafka-post) - `메시지 컨슈밍`, `gRPC 클라이언트`
+- [x] kafka-manifest - `private`, `gitops`
 
 <br>
 
