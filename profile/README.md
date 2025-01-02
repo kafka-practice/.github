@@ -71,5 +71,6 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 
 |  이름   | 사진            |
 |--------|-----------------|
-| ArgoCD | <img width="600" alt="image (3)" src="https://github.com/user-attachments/assets/7a50adb5-ffd4-4cc8-8c27-e3fadd9efb99" /> |
-| Jaeger | <img width="600" alt="image (5)" src="https://github.com/user-attachments/assets/81b98bbb-ac81-4be6-8973-b3e990849772" /> |
+|   ArgoCD  | <img width="600" alt="image (3)" src="https://github.com/user-attachments/assets/7a50adb5-ffd4-4cc8-8c27-e3fadd9efb99" /> |
+|   Jaeger  | <img width="600" alt="image (5)" src="https://github.com/user-attachments/assets/81b98bbb-ac81-4be6-8973-b3e990849772" /> |
+| Outbox DB | <img width="600" alt="image (6)" src="https://github.com/user-attachments/assets/0fb07a57-0647-4688-93f1-bef7c645b4da" /> |
