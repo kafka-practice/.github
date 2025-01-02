@@ -64,6 +64,7 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 저는 이러한 프로젝트 경험을 바탕으로, 이후 개발 팀프로젝트에서 ✨더 자신감있게 DevOps를 담당✨하려고 합니다.<br>
 이렇게 성장할 수 있는 기회를 준 GCP와 AmazingEffect 레포지토리 주인분에게 정말 정말 감사드립니다.
 <br>
+[과정 및 후기를 적은 Notion](https://www.notion.so/2-MSA-with-Kafka-1639ac17facf80e0bb49fce87890a3ca)
 <br>
 
 -------------------------------
