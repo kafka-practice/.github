@@ -68,4 +68,16 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 -------------------------------
 ### 사진
 
-1. 
+| 번호 | 사진            | 설명              |
+|------|-----------------|-------------------|
+| 1    | <img width="600" alt="image (3)" src="https://github.com/user-attachments/assets/7a50adb5-ffd4-4cc8-8c27-e3fadd9efb99" />  | ArgoCD |
+| 2    | <img width="600" alt="image (4)" src="https://github.com/user-attachments/assets/1483b314-0f7a-49df-be52-59b4ef2d26b5" />  | Jaeger |
+| 3    | ![사진3](url3)  | Kafka |
+
+1. ArgoCD
+<img width="600" alt="image (3)" src="https://github.com/user-attachments/assets/7a50adb5-ffd4-4cc8-8c27-e3fadd9efb99" />
+
+<br>
+
+2. Jaeger
+<img width="600" alt="image (4)" src="https://github.com/user-attachments/assets/1483b314-0f7a-49df-be52-59b4ef2d26b5" />
