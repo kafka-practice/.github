@@ -21,14 +21,13 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 <br>
 
 **🌲 프로젝트 아키텍쳐 구조** <br>
-![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/73e89ac1-caef-4c11-9f0c-acee18c63b61)
+![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/9d289fef-41b6-4701-af3f-0cac782dec4f)
 <br>
 <br>
 
 ## 💾 소스 코드 구조
-- [x] [kafka-user](https://github.com/kafka-practice/kafka-user) - 현재 작성 중
-- [ ] kafka-post
-- [ ] kafka-api-gateway
+- [x] [kafka-user](https://github.com/kafka-practice/kafka-user)
+- [x] [kafka-post](https://github.com/kafka-practice/kafka-post)
 
 <br>
 
