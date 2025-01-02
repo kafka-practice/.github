@@ -22,8 +22,9 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 - [x] OpenTelemetry + Jaeger를 이용하여 Trace 정보 수집 및 시각화
 <br>
 
-**🌲 프로젝트 아키텍쳐 구조** - 계획 변경 후 <br>
+**🌲 프로젝트 아키텍쳐 구조** - 프로젝트 구현 완료 후 <br>
 ![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/9d289fef-41b6-4701-af3f-0cac782dec4f)
+각 리소스 흐름 복습을 위해 네임스페이스를 중심으로 아키텍쳐를 그렸습니다.
 <br>
 <br>
 
@@ -37,3 +38,24 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 1. [Transactional Outbox Pattern with Microservices and Kafka - CuriousJinan 블로그](https://curiousjinan.tistory.com/entry/transactional-outbox-pattern-microservices-kafka#Transactional%20Outbox%20Pattern%EC%9D%98%20%EC%82%AC%EC%9A%A9%20%EC%82%AC%EB%A1%80-1)<br>
 2. [AmazingEffect - Github](https://github.com/AmazingEffect)
 
+### 후기
+저는 이 프로젝트를 해보기 전, Kafka로 MSA를 구현한다고만 알고 있었습니다. <br>
+어떻게 구현하지? 라는 생각에 무작정 블로그를 찾아보았고, Transactional Outbox Pattern에 대해 알게되었습니다. <br>
+해당 블로그 내용을 근거로, 시도를 하려했지만 너무 어렵다 싶었고 해당 블로그는 코드로된 정보가 거의 없었습니다. <br>
+그래서 저는 무작정 깃허브에 Transactional Outbox Pattern을 검색했고, 위의 **AmazingEffect** 레포지토리를 발견했습니다. <br>
+그덕에 프로젝트를 시작할 수 있었습니다. <br>
+생각보다 매우 어려웠습니다. 처음 보는 코드들, 너무나 많은 클래스들이 있었지만 하나하나 분석하면서 흐름을 파악하였고, <br>
+코드를 작성할 수 있었습니다. <br>
+<br>
+코드 작성 부분에선 AOP, 새로운 패키지 아키텍쳐, Kafka, Trace 등에 대해 알게되는 계기가되었습니다.<br>
+특히나, AOP는 Trace 및 Span을 위해 필수적이며 어노테이션 기반 로깅을 구현하는 것은 매우 재미있었습니다.<br>
+<br>
+다음으로는 DevOps 지식을 더 알 수 있었습니다. <br>
+며칠 전까지만 해도, 저는 Jaeger 및 OpenTelemetry가 무엇인지 알지 못했습니다. <br>
+그러나, 프로젝트를 진행하면서 내 코드와 AmazingEffect 코드를 비교하면서 해당 오픈소스들을 알게되었습니다. <br>
+그리고 공부하고 구축하여 DevOps로써 성장할 수 있었습니다. <br>
+특히, Spring -> OpenTelemetry -> Jaeger 로깅 시스템 구축은 매우 어려웠지만, 성공 후에는 매우 뿌듯하고 신기했습니다. <br>
+<br>
+프로젝트를 끝내고, 
+저는 이러한 프로젝트 경험을 바탕으로, 이후 개발 팀프로젝트에서 더 자신감있게 DevOps를 담당하려고 합니다.<br>
+이렇게 성장할 수 있는 기회를 준 AmazingEffect 레포지토리 주인분에게 정말정말 감사드립니다.
