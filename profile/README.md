@@ -29,8 +29,8 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 <br>
 
 ## 💾 소스 코드 구조
-- [x] [kafka-user](https://github.com/kafka-practice/kafka-user)
-- [x] [kafka-post](https://github.com/kafka-practice/kafka-post)
+- [x] [kafka-user](https://github.com/kafka-practice/kafka-user) - `메시지 프로듀싱`, `gRPC 서버`
+- [x] [kafka-post](https://github.com/kafka-practice/kafka-post) - `메시지 컨슈밍`, `gRPC 클라이언트`
 
 <br>
 
@@ -39,25 +39,26 @@ Kubernetes 환경에서 ✨Kafka with SASL_TLS✨는 구현해본 상태이며<b
 2. [AmazingEffect - Github](https://github.com/AmazingEffect)
 <br>
 <br>
+
 ### 후기
-저는 이 프로젝트를 해보기 전, Kafka로 MSA를 구현한다고만 알고 있었습니다. <br>
-어떻게 구현하지? 라는 생각에 무작정 블로그를 찾아보았고, Transactional Outbox Pattern에 대해 알게되었습니다. <br>
+이 프로젝트를 수행하기 전, 저는 단순히 Kafka로 MSA를 구현한다고만 알고 있었습니다. <br>
+이후 어떻게 구현하지? 라는 생각에 무작정 블로그를 찾아보았고, `Transactional Outbox Pattern`에 대해 알게되었습니다. <br>
 해당 블로그 내용을 근거로, 시도를 하려했지만 너무 어렵다 싶었고 해당 블로그는 코드로된 정보가 거의 없었습니다. <br>
-그래서 저는 무작정 깃허브에 Transactional Outbox Pattern을 검색했고, 위의 **AmazingEffect** 레포지토리를 발견했습니다. <br>
+그래서 저는 무작정 깃허브에 `Transactional Outbox Pattern`을 검색했고, 위의 **AmazingEffect** 레포지토리를 발견했습니다. <br>
 그덕에 프로젝트를 시작할 수 있었습니다. <br>
 생각보다 매우 어려웠습니다. 처음 보는 코드들, 너무나 많은 클래스들이 있었지만 하나하나 분석하면서 흐름을 파악하였고, <br>
 코드를 작성할 수 있었습니다. <br>
 <br>
-코드 작성 부분에선 AOP, 새로운 패키지 아키텍쳐, Kafka, Trace 등에 대해 알게되는 계기가되었습니다.<br>
+코드 작성을 하며 `AOP in Logging`, `새로운 패키지 아키텍쳐`, `Kafka in Spring`, `Trace` 등에 대해 알게되었습니다.<br>
 특히나, AOP는 Trace 및 Span을 위해 필수적이며 어노테이션 기반 로깅을 구현하는 것은 매우 재미있었습니다.<br>
 <br>
-다음으로는 DevOps 지식을 더 알 수 있었습니다. <br>
+다음으로는 DevOps Engineer로써 역량을 높일 수 있었습니다. <br>
 며칠 전까지만 해도, 저는 Jaeger 및 OpenTelemetry가 무엇인지 알지 못했습니다. <br>
-그러나, 프로젝트를 진행하면서 내 코드와 AmazingEffect 코드를 비교하면서 해당 오픈소스들을 알게되었습니다. <br>
-그리고 공부하고 구축하여 DevOps로써 성장할 수 있었습니다. <br>
+그러나, 내 코드와 AmazingEffect 코드를 비교하면서 다른 점들을 분석하며 해당 오픈소스들의 존재를 알게되었습니다. <br>
+그리고 인터넷을 찾아보며 공부하고 구축하여 어떤 흐름인지 파악하며 DevOps 지식을 얻을 수 있었습니다.. <br>
 특히, Spring -> OpenTelemetry -> Jaeger 로깅 시스템 구축은 매우 어려웠지만, 성공 후에는 매우 뿌듯하고 신기했습니다. <br>
 <br>
-프로젝트를 끝내고, 
+프로젝트를 진행하면서 프로젝트 진행 상황 및 구축 과정들은 빠지지 않고 해놓았습니다. <br>
 저는 이러한 프로젝트 경험을 바탕으로, 이후 개발 팀프로젝트에서 더 자신감있게 DevOps를 담당하려고 합니다.<br>
 이렇게 성장할 수 있는 기회를 준 AmazingEffect 레포지토리 주인분에게 정말정말 감사드립니다.
 <br>
